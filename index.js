@@ -13,7 +13,7 @@ function johnLennonFacts (facts) {
   
   while (i < facts.length) {
     list.push(facts[i] + "!!!")
-    i += 1
+    i++
   }
   return list
 }
